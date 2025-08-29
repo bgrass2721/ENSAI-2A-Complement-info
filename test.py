@@ -25,3 +25,4 @@ for result in results[:5]:
 lyrics = api.get_lyrics_by_id(results[0].id)
 found_lyrics = lyrics.synced_lyrics or lyrics.plain_lyrics
 print(found_lyrics)
+print("1,2,4")
